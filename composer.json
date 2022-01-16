@@ -1,0 +1,20 @@
+{
+    "name": "hansen/pdocs",
+    "description": "PDocs",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HansenKhi",
+            "email": "hansenkhi@outlook.com"
+        }
+    ],
+    "require": {
+        "erusev/parsedown": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "System\\": "./system"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+#!/usr/bin/env php
+<?php
+
+if (isset($argv[1])) {
+    if ($argv[1] === "serve") {
+        passthru("php -S localhost:8000 src/index.php");
+    }
+}
